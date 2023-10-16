@@ -10,13 +10,9 @@ export default function Home() {
       <main className='max-w-screen-2xl m-auto bg-white'>
         <main className='h-screen'>
           <Header/>
-          {/* HEADER */} {/* CARDS */}
-          <div className='py-3 px-36 mt-3 flex flex-wrap justify-center'>
-            {/* CARD */}
+          <div className='py-3 px-3 md:px-8 lg:px-20 xl:px-36 mt-3 flex flex-wrap justify-center'>
             <ChatApp/>
-            {/* CARD */}
           </div>
-          {/* CARDS */}
         </main>
         
       </main>
