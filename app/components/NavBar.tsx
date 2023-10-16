@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     return (
-      <nav className='bg-white p-2 flex justify-between'>
+      <nav className='bg-white p-2 flex justify-between absolute left-0 right-0'>
         <Link href='/' className='font-bold text-gray-700 text-2xl'>
           {' '}
           Chat App {' '}

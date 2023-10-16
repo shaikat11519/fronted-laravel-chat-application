@@ -14,7 +14,7 @@ export default function Header() {
         {/* SEARCH BAR */}
         <div className='text-left text-lg py-3 m-auto flex justify-center'>
           <input
-            className='rounded  mr-3 p-2 w-[450px]'
+            className='rounded  mr-3 p-2 w-[450px] focus:outline-none'
             type='text'
             placeholder='Please enter your name'
             value={location}
