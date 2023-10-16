@@ -6,9 +6,9 @@ export default function Header() {
       const router = useRouter();
       const [location, setLocation] = useState('');
   return (
-    <div className='h-[130px] bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2'>
-      <div className='text-center mt-[10px]'>
-        <h1 className='text-white text-5xl font-bold mb-2'>
+    <div className='h-[150px] bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2'>
+      <div className='text-center mt-[53px]'>
+        <h1 className='text-white text-[13px] font-bold'>
           Before Group chatting, Please submit your name
         </h1>
         {/* SEARCH BAR */}
@@ -25,7 +25,7 @@ export default function Header() {
               if (location === 'banana') return;
               router.push('/search');
             }}
-            className='rounded bg-red-600 hover:bg-red-700 px-9 py-2 text-white'
+            className='rounded bg-red-600 hover:bg-red-700 px-6 py-2 text-white'
           >
             {"Let's go"}
           </button>
