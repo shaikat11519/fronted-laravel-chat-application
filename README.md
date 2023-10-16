@@ -1,15 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chat Application
 
-## Getting Started
+### Local Environment Setup
 
-First, run the development server:
+#### Dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
+- Nextjs 13   
+- Tailwind 
+
+
+### Installing the project
+
+```
+git checkout dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation all dependencies
+```
+npm install
+```
 
-`using prisma 4.8.1`
+### Run the application
+```
+npm run dev
+```

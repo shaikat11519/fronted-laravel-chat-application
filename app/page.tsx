@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar';
 import Header from './components/Header';
-import RestaurantCard from './components/RestaurantCard';
+import ChatApp from './components/ChatApp';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           {/* HEADER */} {/* CARDS */}
           <div className='py-3 px-36 mt-10 flex flex-wrap justify-center'>
             {/* CARD */}
-            <RestaurantCard/>
+            <ChatApp/>
             {/* CARD */}
           </div>
           {/* CARDS */}
