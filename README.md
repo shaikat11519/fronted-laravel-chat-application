@@ -24,4 +24,4 @@ npm install
 npm run dev
 ```
 
-![Alt text](public\demo-picture.png)
+![project Demo](demo-picture.png)
